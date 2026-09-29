@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abdul rason agro farm | Cattle rearing & Milk production</title>
+    <meta
+      name="description"
+      content="Abdul Rason Agro Farm is a premier agricultural enterprise producing high-quality organic dairy, cattle rearing & Milk productions."
+    />
+
+    <!-- External Dependencies -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Roboto+Slab:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- External Stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="site-wrapper">
+      <header class="top-branding">
+        <a href="#home" class="logo-container" title="Abdul Rason Agro Farm">
+          <!-- Logo mark div removed from here -->
+          <div class="brand-titles">
+            <h1 id="dyn-farm-name">Abdul Rason Agro Farm</h1>
+            <p id="dyn-farm-type">Cattle Rearing & Milk Production</p>
+          </div>
+        </a>
+        <div class="header-contact-badge">
+          <i class="fa-solid fa-phone-volume"></i>
+          <div>
+            <strong>Direct Support:</strong>
+            <span id="dyn-header-phone">+880 172 997 2517</span>
+          </div>
+        </div>
+      </header>
+
+      <nav class="top-navbar" aria-label="Main Navigation">
+        <button class="mobile-toggle" id="mobileMenuBtn" aria-expanded="false">
+          NAVIGATION MENU <i class="fa-solid fa-bars"></i>
+        </button>
+        <ul class="nav-menu" id="primaryNavMenu">
+          <li class="nav-item active" data-view="home">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item" data-view="products">
+            <a href="#products" class="nav-link">Our Products</a>
+          </li>
+          <li class="nav-item" data-view="services">
+            <a href="#services" class="nav-link">Service</a>
+          </li>
+          <li class="nav-item" data-view="gallery">
+            <a href="#gallery" class="nav-link">Gallery</a>
+          </li>
+          <li class="nav-item" data-view="company-profile">
+            <a href="#company-profile" class="nav-link">Company Profile</a>
+          </li>
+          <li class="nav-item" data-view="about-us">
+            <a href="#about-us" class="nav-link">About Us</a>
+          </li>
+          <li class="nav-item" data-view="contact">
+            <a href="#contact" class="nav-link">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="main-body-layout">
+        <!-- <aside class="sidebar">
+                <div class="cert-badge-box">
+                    <i class="fa-solid fa-award"></i> ISO 9001:2015 Certified
+                </div>
+                <div class="sidebar-widget">
+                    <div class="widget-header">Short Menu</div>
+                    <ul class="short-menu-list">
+                        <li><a href="#product-milking-dairy">Milking Dairy Product</a></li>
+                        <li><a href="#product-feed-machine">Animal Feed Processing Machine</a></li>
+                        <li><a href="#product-milking-machine">Milking Machine</a></li>
+                        <li><a href="#product-guar-meal">Roasted Guar Korma Meal</a></li>
+                        <li><a href="#product-maize-grain">Maize & Grain Feed</a></li>
+                        <li><a href="#product-ddgs">Distillers Dried Grains (DDGS)</a></li>
+                        <li><a href="#product-spc">Soya Protein Concentrate (SPC)</a></li>
+                        <li><a href="#product-fish-meal">Pure Fish Meal</a></li>
+                        <li><a href="#product-poultry-meal">Poultry Meal</a></li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-widget">
+                    <div class="widget-header">Core Value & Promise</div>
+                    <div class="widget-content">
+                        <p><strong>100% Organic & Chemical-Free</strong> guarantee across all produced dairy and feed raw materials.</p>
+                        <p>Serving national & international agricultural supply chains since 2014.</p>
+                    </div>
+                </div>
+            </aside> -->
+
+        <main class="content-panel">
+          <section id="view-home" class="view-section active-view">
+            <div class="hero-banner-box">
+              <div class="agro-hero-collage">
+                <!-- Ensure this image file exists in your project folder -->
+                <img
+                  src="images/gate.jpg"
+                  alt="Abdul Rason Agro Farm"
+                  class="hero-img"
+                />
+              </div>
+            </div>
+
+            <h2 class="page-title">
+              Welcome to
+              <span class="dyn-farm-name-text">Abdul Rason Agro Farm</span>
+            </h2>
+            <p class="section-paragraph">
+              Abdul Rason Agro Farm is a leading agro-based enterprise involved
+              in Cattle Rearing & Milk Production.
+            </p>
+          </section>
+          <section id="view-products" class="view-section">
+            <h2 class="page-title">Our Products & Machinery</h2>
+
+            <div id="product-milking-dairy" class="product-card-item">
+              <h3>Milking Dairy Products</h3>
+              <p class="section-paragraph">
+                Organic fresh milk, pasteurized dairy items, and butterfat
+                derivatives processed under strict hygienic standards.
+              </p>
+            </div>
+
+            <div id="product-feed-machine" class="product-card-item">
+              <h3>Animal Feed Processing Machines</h3>
+              <p class="section-paragraph">
+                Automated pelletizers, hammermills, and heavy-duty mixers
+                designed for maximum yield efficiency.
+              </p>
+            </div>
+
+            <div id="product-milking-machine" class="product-card-item">
+              <h3>Milking Machinery</h3>
+              <p class="section-paragraph">
+                Advanced electronic milker units, vacuum pump systems, and milk
+                analyzers for commercial dairy farms.
+              </p>
+            </div>
+
+            <!-- <div id="product-guar-meal" class="product-card-item">
+              <h3>Roasted Guar Korma Meal</h3>
+              <p class="section-paragraph">
+                Premium high-protein feed ingredient suitable for cattle,
+                poultry, and aquaculture applications.
+              </p>
+            </div> -->
+
+            <!-- <div id="product-maize-grain" class="product-card-item">
+              <h3>Maize & Grain Feed</h3>
+              <p class="section-paragraph">
+                High-grade agricultural grains harvested and conditioned for
+                livestock dietary requirements.
+              </p>
+            </div> -->
+
+            <!-- <div id="product-ddgs" class="product-card-item">
+              <h3>Distillers Dried Grains (DDGS)</h3>
+              <p class="section-paragraph">
+                Nutrient-rich feed supplement maximizing protein and energy
+                conversion for livestock.
+              </p>
+            </div> -->
+
+            <!-- <div id="product-spc" class="product-card-item">
+              <h3>Soya Protein Concentrate (SPC)</h3>
+              <p class="section-paragraph">
+                Refined soy protein formulations ensuring optimum growth
+                performance in animal feed diets.
+              </p>
+            </div> -->
+
+            <!-- <div id="product-fish-meal" class="product-card-item">
+              <h3>Pure Fish Meal</h3>
+              <p class="section-paragraph">
+                High-grade protein fish meal specifically sourced and processed
+                for aquaculture applications.
+              </p>
+            </div> -->
+            <!-- 
+            <div id="product-poultry-meal" class="product-card-item">
+              <h3>Poultry Meal</h3>
+              <p class="section-paragraph">
+                Quality assured poultry nutritional meals for fast growth and
+                health maintenance.
+              </p>
+            </div> -->
+
+            <div class="solemn-promise-box">
+              <h4>OUR SOLEMN PROMISE:</h4>
+              <ul class="promise-list">
+                <li><i class="fa-solid fa-check-circle"></i> QUALITY</li>
+                <li><i class="fa-solid fa-check-circle"></i> COMMITMENT</li>
+                <li><i class="fa-solid fa-check-circle"></i> SERVICE</li>
+              </ul>
+            </div>
+          </section>
+
+          <section id="view-services" class="view-section">
+            <h2 class="page-title">Services & Technical Consultancy</h2>
+            <p class="section-paragraph">
+              Turn-key technical services and farm development programs tailored
+              for emerging and established commercial enterprises.
+            </p>
+          </section>
+
+          <section id="view-gallery" class="view-section">
+            <div class="gallery-wrapper-card">
+              <h2 class="page-title">Gallery</h2>
+              <div class="gallery-container-box">
+                <div class="gallery-grid" id="galleryGrid"></div>
+              </div>
+            </div>
+          </section>
+
+          <section id="view-company-profile" class="view-section">
+            <h2 class="page-title">Company Profile & Business Model</h2>
+            <p class="section-paragraph">
+              Operating with a dedicated team of skilled agricultural
+              professionals, contributing directly to food security and
+              agro-technology growth.
+            </p>
+          </section>
+
+          <section id="view-about-us" class="view-section">
+            <h2 class="page-title">About Our Farm</h2>
+            <p class="section-paragraph" id="dyn-about-full-text"></p>
+          </section>
+
+          <!-- <section id="view-sister-concern" class="view-section">
+            <h2 class="page-title">Our Sister Concerns & Affiliates</h2>
+            <ul class="feature-checklist">
+              <li>
+                <strong>GreenValley Feed Mills Ltd.</strong> - Specialized
+                production of poultry and fish feed.
+              </li>
+              <li>
+                <strong>AgroTech Machinery Imports</strong> - Direct distributor
+                of modern milking machines.
+              </li>
+              <li>
+                <strong>GreenCold Logistics & Storage</strong> -
+                Temperature-controlled transportation network.
+              </li>
+            </ul>
+          </section> -->
+
+          <section id="view-contact" class="view-section">
+            <h2 class="page-title">Contact Us</h2>
+            <div class="contact-layout">
+              <div class="office-info-card">
+                <div class="office-block">
+                  <h4>Corporate Office</h4>
+                  <p>
+                    <strong
+                      ><span class="dyn-farm-name-text"
+                        >Abdul Rason Agro Farm</span
+                      ></strong
+                    >
+                  </p>
+                  <p id="dyn-corporate-address"></p>
+                  <p>Telephone: <span class="dyn-phone-val"></span></p>
+                  <p>Email: <span class="dyn-email-val"></span></p>
+                </div>
+              </div>
+
+              <div class="contact-form-container">
+                <div id="formFeedbackAlert" class="form-feedback-alert">
+                  Thank you! Your message has been received.
+                </div>
+                <form id="farmContactForm">
+                  <div class="form-group">
+                    <label for="inputName">Your name <span>*</span></label>
+                    <input
+                      type="text"
+                      id="inputName"
+                      class="form-control"
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="inputEmail"
+                      >Your e-mail address <span>*</span></label
+                    >
+                    <input
+                      type="email"
+                      id="inputEmail"
+                      class="form-control"
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="inputSubject">Subject <span>*</span></label>
+                    <input
+                      type="text"
+                      id="inputSubject"
+                      class="form-control"
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="inputMessage">Message <span>*</span></label>
+                    <textarea
+                      id="inputMessage"
+                      class="form-control"
+                      required
+                    ></textarea>
+                  </div>
+                  <button type="submit" class="btn-submit">Send message</button>
+                </form>
+              </div>
+            </div>
+          </section>
+        </main>
+      </div>
+
+      <footer class="site-footer">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <h3>Corporate Office</h3>
+            <p>
+              <strong class="dyn-farm-name-text">Abdul Rason Agro Farm</strong>
+            </p>
+            <p id="dyn-footer-address"></p>
+          </div>
+          <div class="footer-col">
+            <h3>Short Navigation</h3>
+            <ul class="footer-links">
+              <li><a href="#products">Our Products</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#about-us">About Us</a></li>
+              <li><a href="#contact">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h3>Social Network</h3>
+            <ul class="social-list">
+              <li>
+                <a href="https://facebook.com" target="_blank" rel="noopener"
+                  ><i class="fa-brands fa-facebook-f"></i> Facebook</a
+                >
+              </li>
+              <li>
+                <a href="https://twitter.com" target="_blank" rel="noopener"
+                  ><i class="fa-brands fa-x-twitter"></i> Twitter</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h3>24/7 Client Support</h3>
+            <p>Phone: <span class="dyn-phone-val"></span></p>
+          </div>
+        </div>
+        <div class="copyright-bar">
+          <div>
+            Copyright © 2018
+            <span class="dyn-farm-name-text">Abdul Rason Agro Farm</span> All
+            Rights Reserved.
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <div id="lightboxModal" class="lightbox-modal" aria-hidden="true">
+      <div class="lightbox-content-box">
+        <span class="lightbox-close" id="lightboxCloseBtn">&times;</span>
+        <div id="lightboxMediaContainer"></div>
+        <div class="lightbox-title" id="lightboxCaption">Photo Preview</div>
+      </div>
+    </div>
+
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
